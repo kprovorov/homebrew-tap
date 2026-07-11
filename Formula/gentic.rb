@@ -1,27 +1,27 @@
 class Gentic < Formula
   desc "Gentic agent: runs Claude Code or Codex over ACP for queued issues"
   homepage "https://github.com/kprovorov/gentic"
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kprovorov/gentic/releases/download/v0.6.0/gentic-0.6.0-darwin-arm64.tar.gz"
-      sha256 "1ba05aeee5d6b5ed719aadf663fde018b0f81b1fd3725d9871e113926d2294f6"
+      url "https://github.com/kprovorov/gentic/releases/download/v0.7.0/gentic-0.7.0-darwin-arm64.tar.gz"
+      sha256 "75ce0972a05336e1ffbdf80b4afb5d4a8b8855ff4da63e79730956d4f764569e"
     end
     on_intel do
-      url "https://github.com/kprovorov/gentic/releases/download/v0.6.0/gentic-0.6.0-darwin-x64.tar.gz"
-      sha256 "4cade99f6b82f1e7b9e7d06871003362f4a9109c32fc6b6cfe4bed760f9ac04c"
+      url "https://github.com/kprovorov/gentic/releases/download/v0.7.0/gentic-0.7.0-darwin-x64.tar.gz"
+      sha256 "cc37f28ca45bacdb726fc43cb28a0daf6dde5e91626b7eb73753cb251fd30ddb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kprovorov/gentic/releases/download/v0.6.0/gentic-0.6.0-linux-arm64.tar.gz"
-      sha256 "5a76b56541c6b6577c72c5ab1d155f77267d7464aa0fc897fae67ae3e0aa78ed"
+      url "https://github.com/kprovorov/gentic/releases/download/v0.7.0/gentic-0.7.0-linux-arm64.tar.gz"
+      sha256 "2e223e631b5bcc9a31a8ad150fe58b08c60e9b4950cc91816a170163add9c118"
     end
     on_intel do
-      url "https://github.com/kprovorov/gentic/releases/download/v0.6.0/gentic-0.6.0-linux-x64.tar.gz"
-      sha256 "a2bc83f9197cfce06aa59ed9f150f837c12de671fc477dd28c709f1a606a6efe"
+      url "https://github.com/kprovorov/gentic/releases/download/v0.7.0/gentic-0.7.0-linux-x64.tar.gz"
+      sha256 "c0599ae119c99fa91d0b4e871c0ac82364d287d552b2a341f3934c701090d807"
     end
   end
 
